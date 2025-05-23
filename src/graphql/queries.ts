@@ -2,7 +2,7 @@ import { gql } from '@apollo/client';
 
 export const GET_USERS = gql`
   query GetUsers {
-    user {
+    user(order_by: [{ first_name: asc }, { last_name: asc }]) {
       id
       first_name
       last_name
