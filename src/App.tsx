@@ -24,7 +24,7 @@ function App() {
     <ToastContext.Provider value={{ toasts, pushToast }}>
       <div
         className={
-          "pointer-events-none absolute right-4 top-24 z-[60] h-full w-[300px]"
+          "pointer-events-none absolute right-4 top-24 z-[60] w-[300px]"
         }
       >
         <div className={"pointer-events-auto sticky right-0 top-24 w-full"}>

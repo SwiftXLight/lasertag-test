@@ -1,8 +1,8 @@
 import { gql } from '@apollo/client';
 
 export const GET_USERS = gql`
-  query GetUsers {
-    user(order_by: [{ first_name: asc }, { last_name: asc }]) {
+  query GetUsers($limit: Int, $offset: Int) {
+    user(limit: $limit, offset: $offset, order_by: [{ first_name: asc }, { last_name: asc }]) {
       id
       first_name
       last_name

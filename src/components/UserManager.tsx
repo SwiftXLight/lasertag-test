@@ -23,7 +23,7 @@ export const UserManager = () => {
   };
 
   return (
-    <div className="mx-auto p-4">
+    <div className="xl:mx-24 mx-12 xl:my-8 my-4">
       <h1 className="text-2xl font-bold mb-4">User Manager</h1>
       <button
         className="mb-4 bg-green-600 text-white px-4 py-2 rounded"

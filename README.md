@@ -1,6 +1,6 @@
-## Available Scripts
+## Readme
 
-In the project directory, you can run:
+Follow instructions below to setup project locally or in docker
 
 ### Environment
 
